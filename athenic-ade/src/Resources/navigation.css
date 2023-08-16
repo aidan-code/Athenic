@@ -1,0 +1,40 @@
+.Navigation{
+    border: 1px solid black;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.nav-logo{
+    width: 20%;
+}
+
+.navs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 100px; */
+}
+
+.navs ul{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.navs ul li{
+    list-style: none;
+}
+
+.cta{
+    display: flex;
+}
+
+.cta p{
+    margin: 0px 20px;
+}
+
+.cta p a{
+    text-decoration: none;
+}
